@@ -1,11 +1,9 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-	font-family: sans-serif;
+* {
+}
+
+body {
 	color: #454545;
+	font-family: sans-serif;
 }
 
 h1,
@@ -113,3 +111,20 @@ a:active {
 	font-style: italic;
 }
 /* LVHA */
+
+/* CSS conflicts resolving */
+#copyright {
+	color: red;
+}
+
+.copyright {
+	color: blue;
+}
+
+.text {
+	color: yellow;
+}
+
+footer p {
+	color: green;
+}
